@@ -2,25 +2,92 @@
 layout: post
 title:  "Welcome, folks"
 date:   2015-03-29 20:00:00
-categories: Common
+categories: Common Beginners
 comments: true
 ---
 
-For the last few years a lot of my colleagues, experienced engineers and beginners, asked me same questions many times.
-A lot of information was shared by me in personal and group conversations or even recorded.
+### About this blog
 
-So guys, that's it. I decided to create the technical blog, as many of you proposed to me.
+#### Hell, why?!
+There are multiple topics which was raised again and again in conversations with my colleagues, experienced engineers and beginners. A lot of information was shared in personal and group conversations or even recorded, but most of the time we have to explain the same again and again.
 
-### Expected areas and technical level
+So guys, that's it. I decided to create the technical blog for such conversation, as many of you proposed to me. Consider this as a list or notes and articles.
 
-Unlike from my other project, [J2Core](https://j2core.com/), which is oriented on Java Core beginners only, this blog have no "age limits", just maybe target audience.
+#### Expected areas and technical level
 
-So don't be confused with a mix of articles from Architecture to Management and with technical level from Juniour to Seniour, just skip articles which are below or above of your current technical level. From my side I'll try to mark them properly.
+Unlike from my other project, [J2Core](https://j2core.com/), which is oriented on Java beginners mentorship program only, this blog "have no limits", just maybe target audience.
 
-Keep in mind that I'm Grid Architect / Development Manager / System Administrator / DBA etc. with more than 13 years experience, but in the same time I'm still mentoring Java Beginners. So, guys, you can find there ... almost anything.
+Don't be confused with a mix of articles from Architecture to Management and with technical level from Juniour to Principal. Just skip articles on the topics you are not interested in or which are below or above of your current technical level. From my side I'll do my best to mark them properly.
+
+Just keep in mind that I'm:
+    - Principal Engineer
+    - Cloud | Application | System | BigData Architect
+    - CTO
+    - Director
+    - Development Manager
+    - System Administrator
+    - DBA etc. 
+with more than 20 years experience. So, guys, you can find here ... almost anything.
 
 The only thing I can say, it's all about IT.
 
-### How to Subscribe
+#### How to Subscribe
 
-You can use RSS feed or you can just add me on [Google+](http://plus.google.com/109421189749606131821) or, if you are my colleague or friend, on [LinkedIn](https://www.linkedin.com/in/sotnikdv). I'll share posts to these social networks.
+Use RSS feed.
+
+#### Comments
+
+Your are software engineer, this blog is on [GitHub](https://github.com/scalable-systems-blog/scalable-systems-blog.github.io). 
+
+If you need to make a change - just create pull request or create an issue.
+If you want to start discussion, well, create an issue and pull request to add this issue to the article. Again, you are engineer. So, Disqus was deleted.
+
+### I want may own blog!
+
+You can use existing platforms like [blogspot](http://blogspot.com) or [wordpress](http://wordpress.com).
+
+I decided to go with simple static site and external systems for comments etc. So it can be placed on [GitHub Pages][pages-gh] or any hosting. I've used [Jekyll][jekyll] as the template processor with [Kasper theme][kasper]. A bit more themes are available [here](http://jekyllthemes.org/)
+
+This blog have public repository [on GitHub](https://github.com/scalable-systems-blog/scalable-systems-blog.github.io/), you can use at as a basis. 
+
+**Don't forget to:**
+
+- delete my posts from `_posts` directory
+- change `_config.yml` (use `_config.yml.sample`)
+- change `about.md` (use `about.md.sample`)
+
+#### How to write posts
+
+See this article [How to write and edit posts with Markdown, Jekyll and GitHub pages](http://rndblog.github.io/common/2015/09/12/how-to-write-posts-with-jekyll.html)
+
+#### OMG! I wanna write posts and not scripts!
+
+No worries, now let's talk about [GitHub Pages][pages-gh]. I've used [Jekyll Now README](https://github.com/barryclark/jekyll-now/blob/master/README.md) as a basis for this section.
+
+##### Step 1) Fork my blog repository to your User Repository
+
+Fork `https://github.com/scalable-systems-blog/scalable-systems-blog.github.io`, then rename the repository to [yourgithubusername].github.io.
+
+Your blog will often be viewable immediately at <http://[yourgithubusername].github.io> (if it's not, you can often force it to build by completing step 2)
+
+##### Step 2) Customize and view your site
+
+Change your site name, description, avatar and many other options by editing the _config.yml file.
+
+Making a change to _config.yml (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your site will be viewable a few seconds later at <http://[yourgithubusername.github.io]> - if not, give it ten minutes as GitHub suggests and it'll appear soon
+
+> There are 3 different ways that you can make changes to your blog's files:
+
+> 1. Edit files within your new username.github.io repository in the browser at GitHub.com (shown below).
+> 2. Use a third party GitHub content editor, like [Prose by Development Seed](http://prose.io). It's optimized for use with Jekyll making markdown editing, writing drafts, and uploading images really easy.
+> 3. Clone down your repository and make updates locally, then push them to your GitHub repository.
+
+##### Step 3) Publish your first blog post
+
+Use any existing file in `/_posts/` as a template for your new post.
+
+> You can add additional posts in the browser on GitHub.com too! Just hit the + icon in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
+
+[pages-gh]: http://pages.github.com
+[jekyll]: http://jekyllrb.com
+[kasper]: https://github.com/rosario/kasper
