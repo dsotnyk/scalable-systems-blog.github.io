@@ -1,48 +1,99 @@
 ---
 layout: post
-title:  "Welcome, folks"
+title:  "Welcome to collaborative blog (about, faq, how to edit and how to fork)."
 date:   2015-03-29 20:00:00
-categories: Common Beginners
+update: 2021-02-11 17:21:00
+categories: Common Blog
 comments: true
+author_name: "Dmytro Sotnyk"
+author_url: "https://www.linkedin.com/in/dsotnyk"
+author_image: "https://scalable.systems/assets/people/dsotnyk.jpg"
+author_bio: 'I`m Principal Engineer, Architect / CTO and Engineering Manager in California, USA.'
 ---
 
-### About this blog
-
-#### Hell, why?!
 There are multiple topics which was raised again and again in conversations with my colleagues, experienced engineers and beginners. A lot of information was shared in personal and group conversations or even recorded, but most of the time we have to explain the same again and again.
 
 So guys, that's it. I decided to create the technical blog for such conversation, as many of you proposed to me. Consider this as a list or notes and articles.
 
-#### Expected areas and technical level
+* TOC
+{:toc}
+
+
+# About
+
+## Areas and technical level
 
 Unlike from my other project, [J2Core](https://j2core.com/), which is oriented on Java beginners mentorship program only, this blog "have no limits", just maybe target audience.
 
 Don't be confused with a mix of articles from Architecture to Management and with technical level from Juniour to Principal. Just skip articles on the topics you are not interested in or which are below or above of your current technical level. From my side I'll do my best to mark them properly.
 
 Just keep in mind that I'm:
-    - Principal Engineer
-    - Cloud | Application | System | BigData Architect
-    - CTO
-    - Director
-    - Development Manager
-    - System Administrator
-    - DBA etc. 
-with more than 20 years experience. So, guys, you can find here ... almost anything.
+- Principal Engineer
+- Cloud, Application, System, BigData Architect
+- CTO
+- Director
+- Development Manager
+- System Administrator
+- DBA etc.
 
-The only thing I can say, it's all about IT.
+with more than 20 years experience. 
 
-#### How to Subscribe
+<b>So, guys, you can find here ... almost anything.</b> The only thing I can say, it's all about IT.
+
+## Collaborative project
+
+Do you remember your feelings when you read somebody's blog post and found mistakes, outdated facts or just a places which can be improved?
+
+Some time ago I've created my personal blog. Few months later, as many of other bloggers, I've realized that:
+   - my articles may contain mistakes, but readers need to contact me directly and explain what's wrong
+   - somebody may have more knowledge than me on some topics, so reader potentially can improve article
+   - things are changing, so I need to keep articles up to date
+
+I spent a lot of time to write my articles and now I was faced with a choice: **keep them locked in my personal blog or contribute them to community and let people improve them**. I decided to contribute.
+
+So I decided to establish some kind of process to let readers improve articles, something with review and merge process on my side. 
+
+**But wait!..**  
+
+1. If we need workflow similar to open-source code project, let's create blog as the open-sorce repository-based project!
+2. If it's open-source project, then it shouldn't be personal, let other people add their own articles and let every article have an author and list of editors.
+
+This is why this project was created and now I'm migrating my posts to it.
+
+This is the **collaborative** blog, **open for changes** like Wikipedia, but organized as **GitHub open-source project**. So now you are able to **improve existing posts** as well as **create your own** in the way you like.
+
+So if you <s><i>want to fix a bug</i></s> found mistake or you want to <s><i>implement new feature</i></s> add more details to an article or even create your own live article - just go ahead with GitHub workflow and send me [pull request](https://help.github.com/articles/creating-a-pull-request/)!
+
+## Subscribe
 
 Use RSS feed.
 
-#### Comments
+## Comments
 
 Your are software engineer, this blog is on [GitHub](https://github.com/scalable-systems-blog/scalable-systems-blog.github.io). 
 
 If you need to make a change - just create pull request or create an issue.
 If you want to start discussion, well, create an issue and pull request to add this issue to the article. Again, you are engineer. So, Disqus was deleted.
 
-### I want may own blog!
+
+# How to fix mistakes
+
+Regular process for [open-source project, hosted on GitHub](https://github.com/scalable-systems-blog/scalable-systems-blog.github.io/).
+
+In a header of an article you will find also a link to a particular file ("Edit this post on GitHub").
+
+See also this article [How to write and edit posts with Markdown, Jekyll and GitHub pages](http://rndblog.github.io/common/2015/09/12/how-to-write-posts-with-jekyll.html)
+
+# How to create new article
+
+I would recommend to use this article as an example and create it in the same folder, `_posts`.
+
+Don't forget to set bio in header.
+
+See also this article [How to write and edit posts with Markdown, Jekyll and GitHub pages](http://rndblog.github.io/common/2015/09/12/how-to-write-posts-with-jekyll.html)
+
+
+# I want my own blog, tell me how to fork!
 
 You can use existing platforms like [blogspot](http://blogspot.com) or [wordpress](http://wordpress.com).
 
@@ -56,33 +107,32 @@ This blog have public repository [on GitHub](https://github.com/scalable-systems
 - change `_config.yml` (use `_config.yml.sample`)
 - change `about.md` (use `about.md.sample`)
 
-#### How to write posts
+## How to write posts
 
 See this article [How to write and edit posts with Markdown, Jekyll and GitHub pages](http://rndblog.github.io/common/2015/09/12/how-to-write-posts-with-jekyll.html)
 
-#### OMG! I wanna write posts and not scripts!
+## OMG! I wanna write posts and not scripts!
 
 No worries, now let's talk about [GitHub Pages][pages-gh]. I've used [Jekyll Now README](https://github.com/barryclark/jekyll-now/blob/master/README.md) as a basis for this section.
 
-##### Step 1) Fork my blog repository to your User Repository
+### Step 1) Fork my blog repository to your User Repository
 
 Fork `https://github.com/scalable-systems-blog/scalable-systems-blog.github.io`, then rename the repository to [yourgithubusername].github.io.
 
 Your blog will often be viewable immediately at <http://[yourgithubusername].github.io> (if it's not, you can often force it to build by completing step 2)
 
-##### Step 2) Customize and view your site
+### Step 2) Customize and view your site
 
 Change your site name, description, avatar and many other options by editing the _config.yml file.
 
 Making a change to _config.yml (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your site will be viewable a few seconds later at <http://[yourgithubusername.github.io]> - if not, give it ten minutes as GitHub suggests and it'll appear soon
 
 > There are 3 different ways that you can make changes to your blog's files:
-
 > 1. Edit files within your new username.github.io repository in the browser at GitHub.com (shown below).
 > 2. Use a third party GitHub content editor, like [Prose by Development Seed](http://prose.io). It's optimized for use with Jekyll making markdown editing, writing drafts, and uploading images really easy.
 > 3. Clone down your repository and make updates locally, then push them to your GitHub repository.
 
-##### Step 3) Publish your first blog post
+### Step 3) Publish your first blog post
 
 Use any existing file in `/_posts/` as a template for your new post.
 
@@ -91,3 +141,72 @@ Use any existing file in `/_posts/` as a template for your new post.
 [pages-gh]: http://pages.github.com
 [jekyll]: http://jekyllrb.com
 [kasper]: https://github.com/rosario/kasper
+
+
+# Frequently Asked Questions and statements
+
+**> I have my own personal blog, I don't want to work for THIS blog!**
+
+At least, this project will let **you** to change **somebody's** posts, if you'll find mistake or want to make them better. In this case **you'll be in the list of editors of an article**.
+
+But if you have the same concern about your personal blog and you want to create your article in open-source way and make it live - feel free to join and send pull request (or fork, see below). 
+
+Your article will be signed with your name, photo and URL to your site. Also you may create re-post to your personal blog as I do.
+
+**> So, this is YOUR blog!**
+
+This **project** was **started** by me, but this is not my blog. 
+
+Project consists two parts, engine and content. I'm just maintainer of both parts and author of some articles.
+
+You can take participation and make your contribution or you can fork it until you are following licenses for [Jekyll](http://jekyllrb.com/), [Kasper theme](https://github.com/rosario/kasper) and [Greative Commons License, BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/) for content.
+
+**> Yet another blogging platform?**
+
+Wish I could create article on some existing blogging platform and **let people to change articles** with review/merge process. Unfortunately, I found no existing solutions.
+
+So let's forget about blogging platforms, it's the GitHub-based open-source project, focused on posts instead of code. So you can edit any posts, work with GIT repository, send pull requests or fork the project.
+
+**> Yet another wiki?**
+
+Somewhat, but with Git, flow and article is signed with your name, photo and URL.
+
+**> Who will merge changes?**
+
+As most of open-source projects - maintainers. Currently it's only me.
+
+**> Commercial?**
+
+No way. Moreover, open-source and content is under [Greative Commons License, BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/), it can't be used for **any** commercial activity.
+
+Even if someday I'll change my mind, the only thing I can do is to close this **instance** of the project. Any participant or reader can make a fork.
+
+**> What's your rights on MY articles**
+
+Same as **YOUR** rights on **my** articles. The only difference, as the author, I can distribute **my** content **also** under any other licenses or for commercial purposes somewhere else ('cause content of this site under [Greative Commons License, BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/)).
+
+**> What if you'll change license?**
+
+That's not possible, I can only publish **my** **new** posts under another license.
+
+**> Well, I think you'll get some profit from me and this project!**
+
+Which one? Will include an article, signed by your name, to my professional resume? "Dumb ways to die", now in professional area. If you'll find how to make profit on **my** articles from this blog - please let me know.
+
+**> I don't trust you!**
+
+It's not the question of a trust to me, it's a question of a trust to open-source idea, open-source licenses and GitHub as the platform. You are playing by the open-source rules and we are in the same boat. The only difference - I'm maintainer and can **reject** pull requests. If you don't trust me as maintainer - just fork it!
+
+**> What if you'll change author on my article and set YOUR name, for example?**
+
+Content is under [Greative Commons License, BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/). **Authorship is permanent**.
+
+**> "Fine! I'll go build my own lunar lander, with blackjack and ...."**
+
+See corresponding section. As for the content, please preserve information about an authors, this is required by the license. 
+
+Also I'd like to kindly ask you to preserve information about origin (to let reader find a main copy) and, if possible, send updates to this upstream.
+
+**> I want to be a maintainer too**
+
+I see no better way then already used in open-source projects, when top contributors became maintainers. But if you really feel that you don't want to rely on existing process and maintainers - fork it!

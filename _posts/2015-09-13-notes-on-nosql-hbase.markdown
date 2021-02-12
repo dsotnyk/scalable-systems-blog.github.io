@@ -6,10 +6,10 @@ update: 2015-09-14 12:55:00
 categories: NoSQL Architecture
 comments: true
 author_name: "Dmytro Sotnyk"
-author_url: "https://www.linkedin.com/in/sotnikdv"
-author_image: "http://rndblog.github.io/assets/people/dsotnyk.jpg"
-author_bio: 'I`m Principal Software Engineer and Architect in San Francisco, USA. You can find me on <a href="https://www.linkedin.com/in/sotnikdv">LinkedIn</a>.'
-editable: false
+author_url: "https://www.linkedin.com/in/dsotnyk"
+author_image: "https://scalable.systems/assets/people/dsotnyk.jpg"
+author_bio: 'I`m Principal Engineer, Architect / CTO and Engineering Manager in California, USA.'
+editable: true
 ---
 
 **HBase** is the key-value NoSQL DB build on top of HDFS (distributed file system). Written on Java, distributed with the most of Hadoop distributions. HBase is also **wide-column** and similar file format and architecture as Cassandra. HBase supports a "bytes-in/bytes-out".
@@ -22,34 +22,12 @@ This is the one of the few articles in "Notes on NoSQL" sequence
 [Notes on NoSQL : Redis, pretty simple and jet fast cache](/nosql/architecture/2015/09/13/notes-on-nosql-redis.html)  
 [Notes on NoSQL : Aerospike and risqué promises](/nosql/architecture/2015/09/13/notes-on-nosql-aerospike.html)  
 
-<div class="note unreleased">
-  <h5>Early Preview version</h5>
-  <p>
-    This post is the Early Preview which is not ready to be distributed and not recommended to be used. A lot of mistypes, inaccuracies and mistakes inside which are not fixed yet.
-  </p>
-</div>
-
-<div class="note info">
-  <h5>No change requests will be accepted until release</h5>
-  <p>
-    This post is not published officially yet, so please wait for official release before submitting any changes. Any pull requests will be rejected because article will be heavily re-worked very soon.
-  </p>
-</div>
-
 <div class="note info">
   <h5>This post is the summary (compilation) from many sources, you have to read all references</h5>
   <p>
     Post is not intended to explain all related terms or re-write all information from origins. So, please consider this post as the "navigation map" and read all references in the text body and in the end of the post.
   </p>
 </div>
-
-<div class="note info">
-  <h5>A special thanks to <a href="http://griddynamics.com">Grid Dynamics Inc.</a> and colleagues from the author</h5>
-  <p>
-    This post was initially written as notes in my personal time, in the period when I worked on related topic for Grid Dynamics Inc. <br/>I'd like to thanks to the company and colleagues for the great support and knowledge shared. Personal thanks to <a href="https://www.linkedin.com/in/stryuber">Sergey Tryuber</a>
-  </p>
-</div>
-
 
 * TOC
 {:toc}

@@ -1,22 +1,18 @@
 ---
 layout: post
-title:  "Post's editing policy on this resource"
-date:   2015-09-13 02:46:00
-categories: Common
+title:  "Edit policy"
+date:   2015-04-01 02:46:00
+update: 2021-02-11 17:21:00
+categories: Common Blog
 comments: true
 editable: false
 author_name: "Dmytro Sotnyk"
-author_url: "https://www.linkedin.com/in/sotnikdv"
-author_image: "http://rndblog.github.io/assets/people/dsotnyk.jpg"
-author_bio: 'I`m Principal Software Engineer and Architect in San Francisco, USA. You can find me on <a href="https://www.linkedin.com/in/sotnikdv">LinkedIn</a>.'
+author_url: "https://www.linkedin.com/in/dsotnyk"
+author_image: "https://scalable.systems/assets/people/dsotnyk.jpg"
+author_bio: 'I`m Principal Engineer, Architect / CTO and Engineering Manager in California, USA.'
 ---
 
-<div class="note warning">
-  <h5>Editing policy is important part of this project</h5>
-  <p>
-    This article will explain how to edit posts on this resourse and which rules you should follow when editing existing or creating new post to make your pull request merged without glithes.
-  </p>
-</div>
+Editing policy is important part of this project. This article will explain how to edit posts on this resourse and which rules you should follow when editing existing or creating new post to make your pull request merged without glithes.
 
 * TOC
 {:toc}
@@ -33,7 +29,7 @@ All people have unique skillset, techstack and level of understanding of various
 
 I value other opinions in other areas, but this the technical blog.
 
-#### No-hair theorem
+#### "No-hair theorem"
 
 The only things which is important here is the technical knowledge and technical experience.
 
@@ -44,9 +40,9 @@ So, any pullrequests with discussion or even declaration of such things will not
 #### Unacceptable behavior
 
 Includes, but is not limited to:
-    - Violent threats or language;
-    - Discriminatory or derogatory jokes and language;
-    - Sexually explicit or violent material and behavior that could be perceived as sexual attention.;
-    - Posting, or threatening to post, people's personally identifying information ("doxing");
-    - Personal or group insults;
+   - Violent threats or language;
+   - Discriminatory or derogatory jokes and language;
+   - Sexually explicit or violent material and behavior that could be perceived as sexual attention.;
+   - Posting, or threatening to post, people's personally identifying information ("doxing");
+   - Personal or group insults;
 

@@ -1,21 +1,22 @@
-name: Software R&D blog
-description: Now you can improve our posts
+name: Scalable Systems R&D blog
+description: Open-source notes and articles on High Load, Big Data, Java, Architecture and Management
 meta_description: "Open-source notes and articles on High Load, Big Data, Java, Architecture and Management"
 
 markdown: kramdown
 highlighter: pygments
 logo: false
-cover: true
-paginate: 15
+cover: false
+plugins: [jekyll-paginate]
+paginate: 20
 baseurl: /
-disqus_shortname: rndblog-github
-domain_name: 'http://rndblog.github.io'
-google_analytics: 'UA-XXXXXXXX-X'
+disqus_shortname: scalablesystems-blog
+domain_name: 'http://scalable.systems'
+google_analytics: ''
 
-author:         'R&D Blog'
+author:         'Scalable Systems R&D Blog'
 bio:		'Open-source notes and articles on High Load, Big Data, Java, Architecture and Management'
 
 # Details for the RSS feed generator
-url:            'http://rndblog.github.io'
+url:            'https://scalable.systems'
 license: '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Greative Commons License, BY-NC-SA</a>'
 editable: true

@@ -2,8 +2,13 @@
 layout: post
 title:  "Who is who in Big Data"
 date:   2015-05-31 19:17:10
+update: 2019-04-05 07:00:00
 categories: BigData
 comments: true
+author_name: "Dmytro Sotnyk"
+author_url: "https://www.linkedin.com/in/dsotnyk"
+author_image: "https://scalable.systems/assets/people/dsotnyk.jpg"
+author_bio: 'I`m Principal Engineer, Architect / CTO and Engineering Manager in California, USA.'
 ---
 
 Almost year ago I've returned back to Big Data area and started overview of new technologies. I was impressed with a lot of new tools and libraries which I never heard before (I've used Hadoop few years ago). So let me share results of this overview, quick look on who is who in Big Data.

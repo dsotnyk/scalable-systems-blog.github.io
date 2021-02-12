@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "How to write and edit posts with Markdown, Jekyll and GitHub pages"
-date:   2015-09-12 23:10:00
-categories: Common
+date:   2015-04-02 23:10:00
+update: 2021-02-11 16:00:00
+categories: Common Blog
 comments: true
 author_name: "Dmytro Sotnyk"
-author_url: "https://www.linkedin.com/in/sotnikdv"
-author_image: "http://rndblog.github.io/assets/people/dsotnyk.jpg"
-author_bio: 'I`m Principal Software Engineer and Architect in San Francisco, USA. You can find me on <a href="https://www.linkedin.com/in/sotnikdv">LinkedIn</a>.'
+author_url: "https://www.linkedin.com/in/dsotnyk"
+author_image: "https://scalable.systems/assets/people/dsotnyk.jpg"
+author_bio: 'I`m Principal Engineer, Architect / CTO and Engineering Manager in California, USA.'
 ---
 
 This post will explain how to create your articles with Markdown, Jekyll and GitHub which is a simple way to start your own blog or edit posts on this resource. We will be focused on how to write/edit/preview posts with Jekyll:
@@ -16,7 +17,7 @@ This post will explain how to create your articles with Markdown, Jekyll and Git
 1. How to write posts in **Markdown** syntax
 1. How to install and run **Jekyll** locally to get preview
 
-We will **not** explain how to run blog on **GitHub Pages** because this is already described in [Do you wanna technical blog too?](http://sotnikdv.github.io/common/beginners/2015/03/29/do-you-wanna-blog-too.html) post.
+We will **not** explain how to run blog on **GitHub Pages** because this is already described in [Welcome post](http://sotnikdv.github.io/common/beginners/2015/03/29/do-you-wanna-blog-too.html) post.
 
 * TOC
 {:toc}
@@ -126,11 +127,16 @@ gem install jekyll
 gem install bundler
 gem install execjs
 gem install therubyracer
+gem install jekyll-paginate
 {% endhighlight %}
 
 #### Install Jekyll on Windows
 
+Sorry, no info. Please try and update with pull request.
+
 #### Install Jekyll on MacOS
+
+Sorry, no info. Please try and update with pull request.
 
 ### Run local generation
 
