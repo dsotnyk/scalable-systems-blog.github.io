@@ -5,6 +5,7 @@ date:   2015-04-27 23:50:00
 update: 2021-02-11 19:27:00
 categories: Presale Process
 comments: true
+cover: /assets/covers/meeting.jpg
 author_name: "Dmytro Sotnyk"
 author_url: "https://www.linkedin.com/in/dsotnyk"
 author_image: "https://scalable.systems/assets/people/dsotnyk.jpg"

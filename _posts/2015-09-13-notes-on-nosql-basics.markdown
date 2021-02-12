@@ -2,10 +2,11 @@
 layout: post
 title:  "Notes on NoSQL : Basics and key differences between relational and NoSQL databases"
 date:   2015-09-13 04:28:00
-update: 2015-09-14 12:55:00
+update: 2021-02-11 12:55:00
 categories: NoSQL Architecture
 comments: true
 editable: true
+cover: /assets/covers/dots.jpg
 author_name: "Dmytro Sotnyk"
 author_url: "https://www.linkedin.com/in/dsotnyk"
 author_image: "https://scalable.systems/assets/people/dsotnyk.jpg"

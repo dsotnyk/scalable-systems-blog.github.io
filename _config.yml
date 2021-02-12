@@ -4,8 +4,8 @@ meta_description: "Open-source notes and articles on High Load, Big Data, Java, 
 
 markdown: kramdown
 highlighter: pygments
-logo: false
-cover: false
+logo: true
+cover: /assets/covers/main.jpg
 plugins: [jekyll-paginate]
 paginate: 20
 baseurl: /

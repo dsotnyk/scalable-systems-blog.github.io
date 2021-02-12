@@ -5,6 +5,7 @@ date:   2015-03-29 20:00:00
 update: 2021-02-11 17:21:00
 categories: Common Blog
 comments: true
+cover: /assets/covers/main.jpg
 author_name: "Dmytro Sotnyk"
 author_url: "https://www.linkedin.com/in/dsotnyk"
 author_image: "https://scalable.systems/assets/people/dsotnyk.jpg"
@@ -82,7 +83,7 @@ Regular process for [open-source project, hosted on GitHub](https://github.com/s
 
 In a header of an article you will find also a link to a particular file ("Edit this post on GitHub").
 
-See also this article [How to write and edit posts with Markdown, Jekyll and GitHub pages](http://rndblog.github.io/common/2015/09/12/how-to-write-posts-with-jekyll.html)
+See also this article [How to write and edit posts with Markdown, Jekyll and GitHub pages](https://scalable.systems/common/blog/2015/04/02/how-to-write-posts-with-jekyll.html)
 
 # How to create new article
 
@@ -90,7 +91,7 @@ I would recommend to use this article as an example and create it in the same fo
 
 Don't forget to set bio in header.
 
-See also this article [How to write and edit posts with Markdown, Jekyll and GitHub pages](http://rndblog.github.io/common/2015/09/12/how-to-write-posts-with-jekyll.html)
+See also this article [How to write and edit posts with Markdown, Jekyll and GitHub pages](https://scalable.systems/common/blog/2015/04/02/how-to-write-posts-with-jekyll.html)
 
 
 # I want my own blog, tell me how to fork!
@@ -109,7 +110,7 @@ This blog have public repository [on GitHub](https://github.com/scalable-systems
 
 ## How to write posts
 
-See this article [How to write and edit posts with Markdown, Jekyll and GitHub pages](http://rndblog.github.io/common/2015/09/12/how-to-write-posts-with-jekyll.html)
+See this article [How to write and edit posts with Markdown, Jekyll and GitHub pages](https://scalable.systems/common/blog/2015/04/02/how-to-write-posts-with-jekyll.html)
 
 ## OMG! I wanna write posts and not scripts!
 

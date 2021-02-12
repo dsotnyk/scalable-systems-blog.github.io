@@ -2,9 +2,10 @@
 layout: post
 title:  "Notes on NoSQL : MongoDB, unfulfilled hopes and possible bright future"
 date:   2015-09-13 15:00:00
-update: 2015-09-14 12:55:00
+update: 2021-02-11 12:55:00
 categories: NoSQL Architecture
 comments: true
+cover: /assets/covers/dots.jpg
 author_name: "Dmytro Sotnyk"
 author_url: "https://www.linkedin.com/in/dsotnyk"
 author_image: "https://scalable.systems/assets/people/dsotnyk.jpg"

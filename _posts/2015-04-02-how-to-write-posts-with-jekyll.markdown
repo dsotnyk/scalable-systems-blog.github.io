@@ -60,11 +60,11 @@ Well, you can create your own project from scratch by `jekyll new myblogfolder` 
 
 
 
-I've forked this nice [Kasper theme](https://github.com/rosario/kasper) and made some changes to templates and CSS to add more information about an author, last update time, TOC etc. So, If you like congiguration of this blog, [fork it on a GitHub](https://github.com/rndblog/rndblog.github.io) and **don't forget** to [update configuration](https://github.com/rndblog/rndblog.github.io/blob/master/README.md)
+I've forked this nice [Kasper theme](https://github.com/rosario/kasper) and made some changes to templates and CSS to add more information about an author, last update time, TOC etc. So, If you like congiguration of this blog, [fork it on a GitHub](https://github.com/scalable-systems-blog/scalable-systems-blog.github.io) and **don't forget** to [update configuration](https://github.com/scalable-systems-blog/scalable-systems-blog.github.io/blob/master/README.md)
 
 ## How to write posts in Markdown
 
-Well, let's start with example. [Here is the source (text-formatted post in **Markdown** syntax)](https://raw.githubusercontent.com/rndblog/rndblog.github.io/master/_posts/2015-08-28-welcome.markdown) of ["Welcome to yet another technical blog, this time open-source!"](http://localhost:4000/common/2015/08/28/welcome.html) post from this blog.
+Well, let's start with example. [Here is the source (text-formatted post in **Markdown** syntax)](https://github.com/scalable-systems-blog/scalable-systems-blog.github.io/blob/main/_posts/2015-03-29-welcome.markdown) of ["Welcome to collaborative blog (about, faq, how to edit and how to fork)"](https://scalable.systems/common/blog/2015/03/29/welcome.html) post from this blog.
 
 The body of this post is in **Markdown** with some html includes (where Markdown can't do something), the header is for Jekyll (some fields from Kasper theme, some was added by me)
 
@@ -108,7 +108,7 @@ If you want to use your own hosting (run local development and to deploy build r
 
 ### Install Jekyll
 
-For now, we have instructions for Linux only. Please [join editors and improve this article](http://rndblog.github.io/about.html).
+For now, we have instructions for Linux only. Please [join editors and improve this article](http://scalable.systems/about.html).
 
 #### Install Jekyll on Linux
 
