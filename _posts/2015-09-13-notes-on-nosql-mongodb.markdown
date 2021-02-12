@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notes on NoSQL : MongoDB, unfulfilled hopes and possible bright future"
+title:  "NoSQL : MongoDB, high hopes and bright future"
 date:   2015-09-13 15:00:00
 update: 2021-02-11 12:55:00
 categories: NoSQL Architecture

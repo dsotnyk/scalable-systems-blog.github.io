@@ -59,6 +59,8 @@ post_class: post-template
             <!-- Edit note -->
             {% if site.editable == true and page.editable != false %}
                 {% include edit_note.html %}
+	    {% else %}
+	    <br/>
             {% endif %}
 
             {{content}}

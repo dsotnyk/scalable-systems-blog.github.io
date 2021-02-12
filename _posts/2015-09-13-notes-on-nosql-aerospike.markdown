@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notes on NoSQL : Aerospike and risqué promises"
+title:  "NoSQL : Aerospike and risqué promises"
 date:   2015-09-13 19:00:00
 update: 2021-02-11 12:55:00
 categories: NoSQL Architecture

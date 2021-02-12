@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notes on NoSQL : Apache HBase, database on the top of Hadoop"
+title:  "NoSQL : Apache HBase, database atop of HDFS"
 date:   2015-09-13 17:00:00
 update: 2021-02-11 12:55:00
 categories: NoSQL Architecture

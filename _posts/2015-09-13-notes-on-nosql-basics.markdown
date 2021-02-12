@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notes on NoSQL : Basics and key differences between relational and NoSQL databases"
+title:  "NoSQL : Basics and key differences between relational and NoSQL databases"
 date:   2015-09-13 04:28:00
 update: 2021-02-11 12:55:00
 categories: NoSQL Architecture

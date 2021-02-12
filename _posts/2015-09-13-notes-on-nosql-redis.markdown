@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notes on NoSQL : Redis, pretty simple and jet fast cache"
+title:  "NoSQL : Redis, simple and jet fast cache"
 date:   2015-09-13 18:00:00
 update: 2015-09-14 12:55:00
 categories: NoSQL Architecture
@@ -10,7 +10,7 @@ author_name: "Dmytro Sotnyk"
 author_url: "https://www.linkedin.com/in/dsotnyk"
 author_image: "https://scalable.systems/assets/people/dsotnyk.jpg"
 author_bio: 'I`m Principal Engineer, Architect / CTO and Engineering Manager in California, USA.'
-editable: false
+editable: true
 ---
 
 **Redis** is the open-source (BSD license ) [key-value cache and store](http://redis.io/documentation), written in C. [Single-thread](http://redis.io/topics/clients) and [memory-optimized](http://redis.io/topics/memory-optimization). [Used by](http://redis.io/topics/whos-using-redis) Twitter, GitHub,  Pinterest, Craigslist, Digg, StackOverflow, Flickr.

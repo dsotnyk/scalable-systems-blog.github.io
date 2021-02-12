@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notes on NoSQL : Years in production with Apache Cassandra"
+title:  "NoSQL : Years in production with Apache Cassandra"
 date:   2015-09-13 16:00:00
 update: 2021-02-11 12:55:00
 categories: NoSQL Architecture
