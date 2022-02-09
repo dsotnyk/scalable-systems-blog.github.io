@@ -17,7 +17,7 @@ This post will explain how to create your articles with Markdown, Jekyll and Git
 1. How to write posts in **Markdown** syntax
 1. How to install and run **Jekyll** locally to get preview
 
-We will **not** explain how to run blog on **GitHub Pages** because this is already described in [Welcome post](http://sotnikdv.github.io/common/beginners/2015/03/29/do-you-wanna-blog-too.html) post.
+We will **not** explain how to run blog on **GitHub Pages** because this is already described in [Welcome post](https://scalable.systems/common/blog/2015/03/29/welcome.html) post.
 
 * TOC
 {:toc}
@@ -60,7 +60,7 @@ Well, you can create your own project from scratch by `jekyll new myblogfolder` 
 
 
 
-I've forked this nice [Kasper theme](https://github.com/rosario/kasper) and made some changes to templates and CSS to add more information about an author, last update time, TOC etc. So, If you like congiguration of this blog, [fork it on a GitHub](https://github.com/scalable-systems-blog/scalable-systems-blog.github.io) and **don't forget** to [update configuration](https://github.com/scalable-systems-blog/scalable-systems-blog.github.io/blob/master/README.md)
+I've forked this nice [Kasper theme](https://github.com/rosario/kasper) and made some changes to templates and CSS to add more information about an author, last update time, TOC etc. So, If you like congiguration of this blog, [fork it on a GitHub](https://github.com/dsotnyk/scalable-systems-blog.github.io) and **don't forget** to [update configuration](https://github.com/dsotnyk/scalable-systems-blog.github.io/blob/master/README.md)
 
 ## How to write posts in Markdown
 
@@ -78,7 +78,7 @@ categories: Common
 comments: true
 author_name: "Dmytro Sotnyk"
 author_url: "https://www.linkedin.com/in/sotnikdv"
-author_image: "http://rndblog.github.io/assets/people/dsotnyk.jpg"
+author_image: "https://scalable.systems/assets/people/dsotnyk.jpg"
 author_bio: 'I`m Principal Software Engineer and Grid Architect in San Francisco, USA. You can subscribe to my new posts in my <a href="http://sotnikdv.github.io">personal blog</a> or find me in <a href="http://plus.google.com/109421189749606131821">Google+</a> or <a href="https://www.linkedin.com/in/sotnikdv">LinkedIn</a>.'
 ---
 {% endhighlight %}
