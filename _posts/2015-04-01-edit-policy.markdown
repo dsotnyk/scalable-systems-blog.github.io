@@ -8,7 +8,7 @@ comments: true
 editable: false
 author_name: "Dmytro Sotnyk"
 author_url: "https://www.linkedin.com/in/dsotnyk"
-author_image: "https://scalable.systems/assets/people/dsotnyk.jpg"
+author_image: "https://sotnyk.one/assets/people/dsotnyk.jpg"
 author_bio: 'I`m Principal Engineer, Architect / CTO and Engineering Manager in California, USA.'
 ---
 

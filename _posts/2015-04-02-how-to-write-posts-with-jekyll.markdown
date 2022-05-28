@@ -7,7 +7,7 @@ categories: Common Blog
 comments: true
 author_name: "Dmytro Sotnyk"
 author_url: "https://www.linkedin.com/in/dsotnyk"
-author_image: "https://scalable.systems/assets/people/dsotnyk.jpg"
+author_image: "https://sotnyk.one/assets/people/dsotnyk.jpg"
 author_bio: 'I`m Principal Engineer, Architect / CTO and Engineering Manager in California, USA.'
 ---
 
@@ -17,7 +17,7 @@ This post will explain how to create your articles with Markdown, Jekyll and Git
 1. How to write posts in **Markdown** syntax
 1. How to install and run **Jekyll** locally to get preview
 
-We will **not** explain how to run blog on **GitHub Pages** because this is already described in [Welcome post](https://scalable.systems/common/blog/2015/03/29/welcome.html) post.
+We will **not** explain how to run blog on **GitHub Pages** because this is already described in [Welcome post](https://sotnyk.one/common/blog/2015/03/29/welcome.html) post.
 
 * TOC
 {:toc}
@@ -64,7 +64,7 @@ I've forked this nice [Kasper theme](https://github.com/rosario/kasper) and made
 
 ## How to write posts in Markdown
 
-Well, let's start with example. [Here is the source (text-formatted post in **Markdown** syntax)](https://github.com/scalable-systems-blog/scalable-systems-blog.github.io/blob/main/_posts/2015-03-29-welcome.markdown) of ["Welcome to collaborative blog (about, faq, how to edit and how to fork)"](https://scalable.systems/common/blog/2015/03/29/welcome.html) post from this blog.
+Well, let's start with example. [Here is the source (text-formatted post in **Markdown** syntax)](https://github.com/scalable-systems-blog/scalable-systems-blog.github.io/blob/main/_posts/2015-03-29-welcome.markdown) of ["Welcome to collaborative blog (about, faq, how to edit and how to fork)"](https://sotnyk.one/common/blog/2015/03/29/welcome.html) post from this blog.
 
 The body of this post is in **Markdown** with some html includes (where Markdown can't do something), the header is for Jekyll (some fields from Kasper theme, some was added by me)
 
@@ -78,7 +78,7 @@ categories: Common
 comments: true
 author_name: "Dmytro Sotnyk"
 author_url: "https://www.linkedin.com/in/sotnikdv"
-author_image: "https://scalable.systems/assets/people/dsotnyk.jpg"
+author_image: "https://sotnyk.one/assets/people/dsotnyk.jpg"
 author_bio: 'I`m Principal Software Engineer and Grid Architect in San Francisco, USA. You can subscribe to my new posts in my <a href="http://sotnikdv.github.io">personal blog</a> or find me in <a href="http://plus.google.com/109421189749606131821">Google+</a> or <a href="https://www.linkedin.com/in/sotnikdv">LinkedIn</a>.'
 ---
 {% endhighlight %}
@@ -108,7 +108,7 @@ If you want to use your own hosting (run local development and to deploy build r
 
 ### Install Jekyll
 
-For now, we have instructions for Linux only. Please [join editors and improve this article](http://scalable.systems/about.html).
+For now, we have instructions for Linux only. Please [join editors and improve this article](http://sotnyk.one/about.html).
 
 #### Install Jekyll on Linux
 

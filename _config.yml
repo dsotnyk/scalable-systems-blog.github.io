@@ -17,6 +17,6 @@ author:         'Scalable Systems R&D Blog'
 bio:		'Open-source notes and articles on High Load, Big Data, Java, Architecture and Management'
 
 # Details for the RSS feed generator
-url:            'https://scalable.systems'
+url:            'https://sotnyk.one'
 license: '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Greative Commons License, BY-NC-SA</a>'
 editable: true
