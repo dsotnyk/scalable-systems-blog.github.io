@@ -9,8 +9,8 @@ cover: /assets/covers/main.jpg
 plugins: [jekyll-paginate]
 paginate: 20
 baseurl: /
-disqus_shortname: scalablesystems-blog
-domain_name: 'http://scalable.systems'
+disqus_shortname: sotnyk-on-scalablesystems-blog
+domain_name: 'http://sotnyk.one'
 google_analytics: ''
 
 author:         'Scalable Systems R&D Blog'
